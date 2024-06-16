@@ -28,11 +28,11 @@ EOF
 }
 
 inputs = {
-  display-text          = get_env("ECHO_TEXT", "(not-set)")
-  service-power         = "nano"
+  display-text  = get_env("ECHO_TEXT", "(not-set)")
+  service-power = "nano"
 
   # Only used for container solution
-  service-instances     = 1
+  service-instances = 1
 
   # Only used for instance solution
   ec2-enable-access-ssh = false

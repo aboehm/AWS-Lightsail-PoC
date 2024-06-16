@@ -7,7 +7,7 @@ terraform {
 }
 
 input {
-  container-image = "docker.io/hashicorp/http-echo:latest"
+  container-image   = "docker.io/hashicorp/http-echo:latest"
   domain            = "prod.example.com"
   service-instances = 2
   service-power     = "nano"
